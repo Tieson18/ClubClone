@@ -1,0 +1,45 @@
+.welcome__container {
+  padding: 3em 1.5em;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f2f0e4;
+}
+.welcome__container h1 {
+  font-family: Neutrif Pro;
+  font-size: 1.7em;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 0;
+  color: #414042;
+}
+.welcome__info {
+  height: 253px;
+  overflow: auto;
+}
+
+.welcome__info h6 {
+  font-family: Neutrif Pro;
+  margin-bottom: 2em !important;
+  color: #414042;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.welcome__links {
+  align-self: center;
+}
+
+.welcome__links button {
+  border-radius: 25px !important;
+  text-transform: none;
+  font-size: 18px;
+  background-color: var(--btnColor);
+}
+
+.welcome__links a {
+  text-decoration: none;
+  font-size: 0.875em;
+  color: var(--btnColor);
+}

@@ -1,0 +1,32 @@
+.home__container {
+  padding: 3.5em 1.3em;
+  height: 100vh;
+  overflow: auto;
+}
+
+.home__btn {
+  padding: 4em 1.5em 2em 1.5em;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: transparent;
+  align-items: flex-end;
+}
+
+.home__btn > button:first-child {
+  font-family: Neutrif Pro;
+  background-color: #28ae61 !important;
+  margin: auto !important;
+  border-radius: 2em !important;
+  position: absolute;
+  font-size: 1.1em;
+  font-weight: 400;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home__btn > button:last-child {
+  color: var(--textColor);
+}

@@ -1,0 +1,72 @@
+.sheet__container {
+  background-color: #ffff;
+  border-radius: 1.5em;
+  padding: 0em 1em 1.5em 1em;
+  position: relative;
+  height: 100%;
+}
+
+.switch__line {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX("-50%");
+  height: 4px;
+  width: 35px;
+  background-color: #cccc;
+}
+
+.topic__btn {
+  color: #28ae61 !important;
+}
+
+.select__room {
+  border-bottom: 1px solid #cccccc;
+  padding: 1.5em 0;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select__room button {
+  border-radius: 1em;
+  padding: 0.5em 1.3em 0.2em 1.3em;
+  color: var(--textColor);
+  line-height: 1.2;
+}
+
+.active__btn {
+  border: 1px solid lightseagreen !important;
+  background-color: lightblue !important;
+}
+
+.select__room button svg {
+  font-size: 4em;
+}
+
+.select__room button div {
+  background-color: lightseagreen;
+  border-radius: 1.5em;
+}
+
+.sheet__container p {
+  font-size: 1em;
+  color: var(--textColor);
+  text-align: center;
+  font-weight: 500;
+}
+
+.lg__btn {
+  width: 180px;
+  text-transform: none !important;
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+  font-family: Neutrif Pro !important;
+  border-radius: 2em !important;
+  color: #ffffff !important;
+  background-color: #28ae61 !important;
+}
+
+.ReactSwipeableBottomSheet--open {
+  border-radius: 0.5em !important;
+}

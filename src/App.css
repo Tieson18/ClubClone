@@ -1,0 +1,15 @@
+.app__layout {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.plan__layout {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}

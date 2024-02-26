@@ -1,0 +1,91 @@
+button {
+  text-transform: none !important;
+  font-family: Neutrif Pro !important;
+}
+
+.profile__container {
+  height: 100%;
+  overflow: auto;
+  padding: 5em 0.5em 0;
+}
+
+.profile__container .pro__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 2.2em;
+}
+
+.profile__container h4 {
+  font-size: 1.5em;
+  color: var(--textColor);
+  margin: 0.5em 0 0.1em;
+}
+
+.profile__container p {
+  font-size: 1.1em;
+  color: #aaaaaa;
+}
+
+.act__btn {
+  flex-direction: row !important;
+}
+
+.act__btn svg {
+  font-size: 2em;
+  margin-right: 1em;
+}
+
+.act__btn svg:last-child {
+  margin-right: 0;
+}
+
+.pro__follow {
+  flex-direction: row !important;
+  margin-bottom: 2.5em;
+}
+
+.pro__follow > p:first-child {
+  margin-right: 2.5em;
+}
+
+.pro__follow span {
+  font-weight: 600;
+  color: var(--textColor);
+  margin-right: 0.2em;
+  font-size: 1.3em;
+}
+
+.profile__container button {
+  color: var(--btnColor);
+  margin-bottom: 2.5em;
+}
+
+.pro__nominated img {
+  width: 40px;
+  height: 40px;
+  border-radius: 1em;
+  margin-right: 0.5em;
+}
+
+.pro__nominated {
+  flex-direction: row !important;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.pro__nominated p {
+  font-size: 0.975em;
+  line-height: 1.4;
+}
+
+.pro__nominated span {
+  font-weight: 600;
+  color: var(--textColor);
+}
+
+.addMember__btn {
+  background-color: lightblue !important;
+  margin: 0.3em 0 0 !important;
+  padding: 0.8em 1em !important;
+  border-radius: 1em !important;
+}

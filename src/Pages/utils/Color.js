@@ -1,0 +1,1 @@
+export const clubhouse = "#f2f0e4"

@@ -1,0 +1,135 @@
+.room__container {
+  height: 100%;
+  background-color: #f2f0e4 !important;
+  margin: 0em -1em 1.5em !important;
+  border-radius: 0.5em;
+}
+
+.room__head {
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8em 0.5em 1.5em 0.5em;
+}
+
+.room__head span {
+  font-size: 1em;
+  margin-left: 0.5em;
+}
+
+.arrow__icon {
+  color: black;
+  transform: rotate(-90deg);
+  margin-top: -0.5em;
+  /* font-size: 1em !important; */
+}
+
+.profile__img {
+  width: 25px !important;
+  height: 25px !important;
+  margin-left: 1.2em;
+}
+
+.room__head svg {
+  font-size: 1.4em;
+}
+
+.room__card {
+  background-color: #ffffff;
+  padding: 1em 1em 3em 1em;
+  border-radius: 1.5em 1.5em 0 0;
+  height: 70vh;
+  overflow: auto;
+}
+
+.room__card img {
+  background-color: rgb(238, 235, 235);
+  width: 70px;
+  border-radius: 1.7em;
+}
+
+.room__card h6 {
+  font-size: 0.675em;
+  color: var(--textColor);
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+
+.member__container {
+  text-align: center;
+  width: 70px;
+  position: relative;
+}
+
+.audio__icon {
+  position: absolute;
+  right: -5px;
+  bottom: 22px;
+  z-index: 5;
+  background-color: #ffffff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 3px #cccccc;
+}
+
+.audio__icon svg {
+  color: #28ae61;
+}
+
+.member__container p {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  font-family: Neutrif Pro;
+  font-weight: 600;
+}
+
+.member__container span {
+  font-size: 2.5em;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #28ae61;
+  font-family: Neutrif Pro;
+  color: #ffffff;
+  margin-right: 0.1em;
+  line-height: 0.8;
+}
+
+.room__footer {
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+.room__footer button {
+  background-color: #e7e4d5;
+}
+
+.room__footer img {
+  width: 30px;
+}
+
+.room__footer > button {
+  font-family: Neutrif Pro;
+  text-transform: none;
+  border-radius: 2em;
+  color: #28ae61;
+  font-weight: 600;
+  padding: 0.3e 1em;
+}
+
+.room__footer > div > button {
+  width: 36px;
+  height: 36px;
+  margin-right: 0.5em;
+}

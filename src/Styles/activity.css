@@ -1,0 +1,25 @@
+.active__container {
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+.active__container > div {
+  flex-direction: row;
+}
+
+.active__container > div p {
+  margin-left: 1em;
+  font-size: 0.8em;
+  width: 18.5em;
+  color: var(--textColor);
+}
+.active__container > p {
+  font-size: 0.8em;
+  color: #aaaaaa;
+}
+
+.active__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 1.1em;
+}

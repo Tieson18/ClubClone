@@ -1,0 +1,97 @@
+.phone__container {
+  padding: 3em 1.7em;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f0e4;
+  position: relative;
+}
+
+.phone__head {
+  font-family: Neutrif Pro !important;
+  font-size: 1.3em !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  margin-bottom: 0 !important;
+  color: #414042;
+}
+
+.phone__text {
+  font-family: Neutrif Pro !important;
+  margin-bottom: 0;
+  color: #414042;
+  width: 100%;
+  max-width: 270px;
+  text-align: center;
+  font-size: 0.775em !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  justify-content: space-evenly;
+}
+
+.phone__text span {
+  font-weight: 600 !important;
+}
+
+a button {
+  font-family: Neutrif Pro !important;
+  border-radius: 2em !important;
+  background-color: var(--btnColor);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.back__btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #414042;
+}
+
+.not__container {
+  border-radius: 1em;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.not__container h3 {
+  font-size: 1em;
+  font-weight: 600;
+  color: #000;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 0.3em;
+}
+
+.not__container p {
+  font-family: Neutrif Pro !important;
+  font-size: 0.825em;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: auto;
+}
+
+.action__btn {
+  flex-direction: row !important;
+  position: relative;
+}
+
+.action__btn a {
+  width: 50%;
+  padding: 0.5em;
+  border-top: 1px solid #ccc;
+  color: var(--btnColor);
+}
+
+.action__btn a:first-child {
+  border-right: 1px solid #ccc;
+}
+
+.hand__icon {
+  position: absolute;
+  color: #ffcc80;
+  bottom: -90px;
+  font-size: 100px !important;
+  right: 50px;
+  width: 80px;
+}

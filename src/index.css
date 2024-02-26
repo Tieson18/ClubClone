@@ -1,0 +1,24 @@
+:root {
+  --btnColor: #3287b7;
+  --textColor: #414042;
+}
+
+@font-face {
+  font-family: Neutrif Pro;
+  src: url("./font/NeutrifPro-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  box-sizing: border-box;
+  font-family: Neutrif Pro;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: var(--btnColor);
+}

@@ -1,0 +1,9 @@
+.join__container button {
+  background-color: #28ae61;
+  border-radius: 2em;
+  padding: 0.2em 2em;
+}
+
+.join__container > :nth-child(3) {
+  font-size: 0.8em;
+}
